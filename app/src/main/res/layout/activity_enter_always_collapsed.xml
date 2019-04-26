@@ -14,18 +14,20 @@
 
         <android.support.design.widget.CollapsingToolbarLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            app:contentScrim="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways|enterAlwaysCollapsed">
 
             <!-- Image from Sergio Souza -->
             <!-- https://unsplash.com/@serjosoza -->
             <!-- https://images.unsplash.com/photo-1550847124-396b9c817be4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60 -->
 
             <ImageView
-                android:src="@drawable/collapsing_image"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:adjustViewBounds="true"
                 android:scaleType="center"
+                android:src="@drawable/collapsing_image"
                 app:layout_collapseMode="parallax" />
 
             <android.support.v7.widget.Toolbar
