@@ -9,4 +9,9 @@ Duis lobortis massa imperdiet quam. Aenean viverra rhoncus pede. Vestibulum volu
 Quisque id odio. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lobortis. Nullam dictum felis eu pede mollis pretium. Ut id nisl quis enim dignissim sagittis.
 Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Phasellus blandit leo ut odio. Nulla consequat massa quis enim. Vestibulum fringilla pede sit amet augue. Donec id justo.
 Nulla consequat massa quis enim. Nam adipiscing. Cras id dui. Phasellus blandit leo ut odio. Phasellus consectetuer vestibulum elit.</string>
+    <string name="scroll_flag">Scroll Flag</string>
+    <string name="scroll_enter_always">Scroll Enter Always</string>
+    <string name="enter_always_collapsed">Enter Always Collapsed</string>
+    <string name="exit_until_collapsed">Exit Until Collapsed</string>
+    <string name="action_settings">Settings</string>
 </resources>

@@ -12,13 +12,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ExitUntilCollapsedActivity"></activity>
-        <activity android:name=".EnterAlwaysCollapsedActivity" />
-        <activity android:name=".ScrollEnterAlwaysActivity" />
-        <activity android:name=".ScrollFlagActivity" />
+        <activity
+            android:name=".ExitUntilCollapsedActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".EnterAlwaysCollapsedActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ScrollEnterAlwaysActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ScrollFlagActivity"
+            android:parentActivityName=".MainActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
