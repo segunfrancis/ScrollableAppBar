@@ -12,7 +12,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".EnterAlwaysCollapsedActivity"></activity>
+        <activity android:name=".ExitUntilCollapsedActivity"></activity>
+        <activity android:name=".EnterAlwaysCollapsedActivity" />
         <activity android:name=".ScrollEnterAlwaysActivity" />
         <activity android:name=".ScrollFlagActivity" />
         <activity android:name=".MainActivity">
